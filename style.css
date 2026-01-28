@@ -1,0 +1,46 @@
+:root {
+    --accent: #2563EB;
+    --secondary: #111827;
+    --tertiary: #D8DADD;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    min-height: 100dvh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    background-color: var(--tertiary);
+    width: 100%;
+    height: 4rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+nav ul li {
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+nav button {
+    border: none;
+    background-color: var(--accent);
+    color: #fff;
+    padding: 0.5rem;
+}
+.hero {
+    width: 100%;
+    height: 100dvh;
+    background-image: url("images/house.jpg");
+    background-size: contain;
+}
